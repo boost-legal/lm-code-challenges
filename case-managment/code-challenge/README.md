@@ -6,15 +6,18 @@ We have the following instructions:
 
  - A Lawyer is a person who practice the law and they can attend multiple cases.
  - A Lawyer is a person with name and an social security number(ssn).
- - A Case happens in a defined date in a Court, is from a Client and does have a case value which is how much a Lawyer will earn from this case.
+ - A Case happens in a defined date in a Court and is from a Client.
+ - A Case can be in following status: lost, won.
+ - A Case have a case value which is the amount of money a Lawyer can earn if the case is won.
  - A Court have a name and address and an unique identifier(ID).
  - A Client is a person with name and an social security number(ssn) who can be assigned to multiple cases.
- - A Case can be in following status: opened, closed and a Lawyer get receives the case value after a case is closed.
 
- - As a lawyer I would like to know how many opened cases I have by court.
- - As a lawyer I would like to know how many closed cases I have.
+ - As a lawyer I would like to know how many cases I have by court.
+ - As a lawyer I would like to know how many won cases I have.
+ - As a lawyer I would like to know how many lost cases I have.
  - As a lawyer I would like to know how much money I've got by client.
- - As a lawyer I would like to know how much money I've got from all my cases.
+ - As a lawyer I would like to know how much money I've got from my cases.
+ - As a lawyer I would like to know how much money I've lost from my cases.
 
 Bonus points if you write tests.
 

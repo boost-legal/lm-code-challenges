@@ -40,7 +40,7 @@ courts = [
  { id: 4, name: '6th District Court of Appeal', address: '333 West Santa Clara Street Suite 1060 San Jose, CA 95113' },
 ];
 puts ''
-puts 'Case ID;Court ID;Lawyer ssn;Client ssn;Case Value;Case Date'
+puts 'Case ID;Court ID;Lawyer ssn;Client ssn;Case Value;Case Status;Case Date'
 
 cases = 100.times.map do |d| {
   id: d+1, 
@@ -48,6 +48,7 @@ cases = 100.times.map do |d| {
   lawyer_ssn: lawyers.sample[:ssn],
   client_ssn: clients.sample[:ssn],
   case_value: rand(1000...100000),
+  status: ['lost', 'won'].sample,
   case_date: (Date.today - rand(1..100)).strftime('%Y-%m-%d')
 }
 end
