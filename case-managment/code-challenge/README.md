@@ -18,12 +18,13 @@ We have the following instructions:
 
 Bonus points if you write tests.
 
-We are going to provide you a list of courts, lawyers, clients and cases in different files.
-Courts: courts.csv
-Lawyers: lawyers.csv
-Clients: clients.csv
-Cases: cases.csv
+We provide you a list of csv files with courts, lawyers, clients and cases in different files.
+
+Courts: [courts.csv](courts.csv)
+Lawyers: [lawyers.csv](lawyers.csv)
+Clients: [clients.csv](clients.csv)
+Cases:   [cases.csv](cases.csv)
 
 
-We expect you to develop this usign Ruby without using a database in order to test your object oriented skills. Feel free to ask us any question.
+We expect you to develop usign Ruby without using a database in order to test your object oriented skills. Feel free to ask us any question.
 
