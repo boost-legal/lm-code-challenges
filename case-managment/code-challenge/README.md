@@ -21,8 +21,11 @@ Bonus points if you write tests.
 We provide you a list of csv files with courts, lawyers, clients and cases in different files.
 
 Courts: [courts.csv](courts.csv)
+
 Lawyers: [lawyers.csv](lawyers.csv)
+
 Clients: [clients.csv](clients.csv)
+
 Cases:   [cases.csv](cases.csv)
 
 
