@@ -2,7 +2,7 @@
 
 A case management is a system to provide lawyers informations about the state of his cases and help him to have good understanding about his earnings.
 
-We have the following instructions:
+## Instructions
 
  - A Lawyer is a person who practice the law and they can attend multiple cases.
  - A Lawyer is a person with name and an social security number(ssn).
@@ -19,7 +19,8 @@ We have the following instructions:
  - As a lawyer I would like to know how much money I've got from my cases.
  - As a lawyer I would like to know how much money I've lost from my cases.
 
-Bonus points if you write tests.
+
+## Assets
 
 We provide you a list of csv files with courts, lawyers, clients and cases in different files.
 
@@ -31,6 +32,12 @@ Clients: [clients.csv](clients.csv)
 
 Cases:   [cases.csv](cases.csv)
 
+## Expectations
 
-We expect you to develop usign Ruby without using a database in order to test your object oriented skills. Feel free to ask us any question.
+We need this chalenge to be developed usign *Ruby without a database* in order to test your object oriented skills. Feel free to ask us any question.
+
+## Bonus
+
+Bonus points if you write tests.
+
 
