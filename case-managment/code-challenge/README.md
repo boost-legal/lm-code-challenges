@@ -6,7 +6,7 @@ We have the following instructions:
 
  - A Lawyer is a person who practice the law and they can attend multiple cases.
  - A Lawyer is a person with name and an social security number(ssn).
- - A Case happens in a defined date in a Court, is from a Lawyer Client and does have a value which is how much a Lawyer will earn from a case.
+ - A Case happens in a defined date in a Court, is from a Client and does have a case value which is how much a Lawyer will earn from this case.
  - A Court have a name and address and an unique identifier(ID).
  - A Client is a person with name and an social security number(ssn) who can be assigned to multiple cases.
  - A Case can be in following status: opened, closed and a Lawyer get receives the case value after a case is closed.
